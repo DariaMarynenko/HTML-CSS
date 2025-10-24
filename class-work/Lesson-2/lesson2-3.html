@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        body{
+            height: 100vh;
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: lightgreen;
+            /*;margin: 0 10px;*/
+
+        }
+        .blueviolet{
+            background-color: blueviolet;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column-reverse;
+        }
+        .blueviolet p{
+            /*text-align: center;*/
+        }
+        .blueviolet img{
+            width: 50%;
+        }
+        .yellow{
+            background-color: yellow;
+        }
+        .green{
+            background-color: green;
+        }
+        .flex{
+            height: 100%;
+            background-color: aqua;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            align-items: center;
+            flex-direction: column-reverse;
+        }
+    </style>
+</head>
+<body>
+<div class="flex">
+    <div class="box blueviolet">
+        <p>Lorem ipsum dolor.</p>
+        <img src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/black-cat-amber-eyes-printed-view.jpg" alt="">
+    </div>
+    <div class="box yellow"></div>
+    <div class="box green"></div>
+</div>
+</body>
+</html>
