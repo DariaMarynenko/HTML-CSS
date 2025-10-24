@@ -1,0 +1,45 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: rgba(246, 246, 246, 1)
+
+}
+h1{
+    text-align: center;
+    padding: 50px;
+}
+.food p{
+    padding: 15px 0;
+    font-weight: 600;
+}
+p{
+    text-align: center;
+    padding: 5px 0 20px 0;
+    font-weight: 600;
+}
+.fridge{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 15px 0;
+}
+.food{
+    width: 240px;
+    height: 300px;
+    border: 3px solid lightgray;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.food img{
+    width: 80%;
+    height: 70%;
+    object-fit: contain;
+}
