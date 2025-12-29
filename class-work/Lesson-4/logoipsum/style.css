@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body {
+    /*background-color: #ccdaff;*/
+}
 *{
     margin: 0;
     padding: 0;
@@ -6,6 +11,186 @@
     list-style-type: none;
 }
 .w-1070{
-    width:100%;
+    width: 1070px;
     margin: 0 auto;
+    /*background-color: #ccdaff;*/
+}
+
+/*-------------------------------------------------------- header -------------------------------------------------------------*/
+
+header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 30px;
+        font-family: "DM Sans", sans-serif;
+}
+.logoipsum{
+    width: 200px;
+}
+header nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+header nav ul a{
+    color: #696871;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: -0.469px;
+}
+.header__active-link{
+    color: #19191B;
+    border-bottom: 2px solid #5454D4;
+}
+.header__button{
+    width: 211.02px;
+    height: 60px;
+    background-color: #FF7143;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: -0.531px;
+}
+
+    /*----------------------------------------------------- home ----------------------------------------------------------*/
+
+.home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 68px;
+}
+.home div h1{
+    color: #19191B;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 75px;
+    line-height: 77px;
+    letter-spacing: -2.501px;
+}
+.home div p{
+    font-family: "Mulish", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.63px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 409.426px;
+}
+.home__button{
+    width: 188.2px;
+    height: 60px;
+    top: 401px;
+    border: none;
+    border-radius: 10px;
+    background-color: #5454D4;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: -0.53px;
+    text-align: center;
+}
+
+/*-------------------------------------------------------- features ------------------------------------------------------------*/
+
+.features{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.brands{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 122px 0 122px 0;
+}
+.brands img{
+    width: 13%;
+
+}
+.features__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.features__text{
+    width: 556px;
+    height: 229px;
+}
+.features__content h1{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 57px;
+    letter-spacing: -1.56px;
+}
+.features__content p{
+    font-family: "Mulish", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 30px;
+}
+.features__content img{
+    width: 348.5px;
+    opacity: 1;
+}
+
+/*-------------------------------------------------------- prising ------------------------------------------------------------*/
+
+.prising{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.prising__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.prising__content__img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.prising__content__text{
+    width: 409.426px;
+    margin-right: 225px;
+    margin-top: 50px;
+}
+.prising__content__text h1{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 57px;
+    letter-spacing: -1.56px;
+}
+.prising__content__text p{
+    font-family: "Mulish", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 30px;
+    letter-spacing: -0.63px;
+    padding-top: 30px;
+}
+.prising__content__img img{
+    width: 346.36px;
+    height: 474px;
+    angle: 0 deg;
+    opacity: 1;
 }
