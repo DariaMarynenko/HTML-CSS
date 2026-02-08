@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            margin: 0;
+            background-color: black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .hedgehog{
+            width: 300px;
+            animation: animate 4s linear infinite alternate;
+        }
+        @keyframes animate{
+            from{
+                transform: translateX(-200px) rotate(0deg);
+            }
+            to {
+                transform: translateX(300px) rotate(360deg) ;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <img src="img/hedgehog" class="hedgehog" alt="#">
+    <img src="img/grass" alt="#">
+</div>
+</body>
+</html>
