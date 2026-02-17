@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+/*
+1000p - inline
+100p - id
+10p - class
+1p - tag
+*/
+body p.lorem{
+    color: green;
+}
+p.text{
+    color: blue;
+}
+p{
+    color: coral;
+}
+section p.lorem{
+    color: cyan;
+}
+section div p.text{
+    color: aqua;
+}
+section div.box p.text{
+    color: pink;
+}
+    </style>
+</head>
+<body>
+<section>
+    <div class="box">
+        <p class="text lorem pink">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, cupiditate.</p>
+    </div>
+</section>
+</body>
+</html>
