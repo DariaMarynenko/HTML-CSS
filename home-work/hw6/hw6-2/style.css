@@ -1,0 +1,115 @@
+body {
+    height: 100vh;
+    margin: 0;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+}
+
+.form-login {
+    width: 40vw;
+    height: 85vh;
+    border: 1px solid lightgray;
+    background-color: white;
+}
+
+.form-login div:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
+}
+
+.form-login div:nth-child(1) h1 {
+    font-family: "Billabong", cursive;
+    font-size: 55px;
+}
+
+.form-login form {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+input[type=text],
+input[type=password] {
+    width: 300px;
+    height: 30px;
+    margin: 10px;
+    padding-left: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+input[type=submit] {
+    background-color: #65b3e8;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 320px;
+    height: 40px;
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.or {
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    color: gray;
+}
+
+.facebook {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+.facebook span {
+    background-color: #31558a;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.facebook a {
+    color: #31558a;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.forgot {
+    color: #164b7a;
+    text-decoration: none;
+    margin-top: 25px;
+}
+
+.registration {
+    width: 40vw;
+    height: 10vh;
+    border: 1px solid lightgray;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.registration a {
+    color: #2296e8;
+    text-decoration: none;
+    font-weight: bold;
+}
