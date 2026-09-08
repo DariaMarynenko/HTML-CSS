@@ -1,0 +1,102 @@
+@media screen and (max-width: 480px){
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 375px;
+        height: 667px;
+        padding: 48px 16px;
+        gap: 10px;
+    }
+    .circle-left, .circle-right {
+        display: none;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 501px;
+        flex-shrink: 0;
+        align-self: stretch;
+    }
+    h1{
+        width: 367px;
+        height: 110px;
+        flex-shrink: 0;
+        color: rgba(255, 255, 255, 0.90);
+        text-align: center;
+        font-family: Inter, sans-serif;
+        font-size: 110px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.5px;
+    }
+    .content-box{
+        display: flex;
+        padding: 16px 0 24px 0;
+        flex-direction: column;
+        align-items: center;
+        align-self: stretch;
+        gap: 16px;
+    }
+    h2{
+        color: rgba(255, 255, 255, 0.90);
+        text-align: center;
+        /* Title/2 strong */
+        font-family: Inter, sans-serif;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%; /* 33.6px */
+    }
+    p{
+        color: rgba(255, 255, 255, 0.75);
+        text-align: center;
+        /* Text/2 regular */
+        font-family: Inter, sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%; /* 25.2px */
+    }
+    .buttons{
+        display: flex;
+        height: 64px;
+        padding: 0 24px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 8px;
+        align-self: stretch;
+    }
+    .first-button{
+        display: flex;
+        height: 64px;
+        padding: 0 24px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        align-self: stretch;
+        border-radius: 32px;
+        background: #6F1DF4;
+    }
+    .second-button{
+        display: flex;
+        height: 64px;
+        padding: 0 24px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        align-self: stretch;
+        border-radius: 32px;
+        background: #FFF;
+    }
+}

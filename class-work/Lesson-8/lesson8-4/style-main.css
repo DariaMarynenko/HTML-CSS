@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #161622;
+    overflow: hidden;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 1440px;
+    height: 800px;
+    padding: 64px 48px;
+    gap: 10px;
+}
+.circle-left{
+    width: 396px;
+    height: 396px;
+    flex-shrink: 0;
+    border-radius: 396px;
+    border: 48px solid #6F1DF4;
+    opacity: 0.5;
+    position: absolute;
+    top: -210px;
+    left: -200px;
+}
+.circle-right{
+    width: 260px;
+    height: 260px;
+    flex-shrink: 0;
+    border-radius: 260px;
+    border: 48px solid #6F1DF4;
+    opacity: 0.5;
+    position: absolute;
+    top: -20px;
+    right: -120px;
+}
+.container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 533px;
+}
+h1{
+    width: 367px;
+    height: 180px;
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 180px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.5px;
+}
+.content-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 0 40px 0;
+    align-self: stretch;
+}
+h2{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    /* Large title/3 strong */
+    font-family: Inter, sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 57.6px */
+    letter-spacing: 0.25px;
+}
+p{
+    color: rgba(255, 255, 255, 0.75);
+    text-align: center;
+    /* Text/1 regular */
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 28px */
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+}
+.first-button{
+    display: flex;
+    height: 64px;
+    padding: 0 48px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 32px;
+    background: #6F1DF4;
+}
+.second-button{
+    display: flex;
+    height: 64px;
+    padding: 0 48px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 32px;
+    background: #FFF;
+}
