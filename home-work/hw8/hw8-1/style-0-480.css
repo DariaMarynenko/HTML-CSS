@@ -1,0 +1,37 @@
+@media screen and (max-width: 480px){
+    .wrapper{
+        display: flex;
+        width: 375px;
+        height: 2258px;
+        padding: 32px 16px;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        align-self: stretch;
+    }
+    .container-wrapper{
+        width: 343px;
+        height: 2194px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+    .container {
+        display: contents;
+    }
+    .content-container{
+        height: 343px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    img{
+        width: 343px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        flex: 1 0 0;
+        border-radius: 10px;
+    }
+}
