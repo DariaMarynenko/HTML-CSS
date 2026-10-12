@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        .grid{
+            display: grid;
+            height: 100vh;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 0.5fr 0.5fr 1fr 1fr;
+            grid-template-areas:
+            "header header header header"
+            "top-section top-section top-section top-aside"
+            "middle-section middle-section middle-section top-aside"
+            "middle-section middle-section middle-section bottom-aside"
+            "bottom-section bottom-section bottom-section bottom-aside"
+            "footer footer footer footer";
+        }
+        header{
+            grid-area: header;
+            background-color: #8D8484;
+        }
+        .top-section{
+            grid-area: top-section;
+            background-color: #776969;
+        }
+        .middle-section{
+            grid-area: middle-section;
+            background-color: #643030;
+        }
+        .bottom-section{
+            grid-area: bottom-section;
+            background-color: #441818;
+        }
+        .top-aside{
+            grid-area: top-aside;
+            background-color: #937575;
+        }
+        .bottom-aside{
+            grid-area: bottom-aside;
+            background-color: #644C4C;
+        }
+        footer{
+            grid-area: footer;
+            background-color: #BDBDBD;
+        }
+        header, footer h3{
+            color: #000;
+            font-family: Inter sans-serif;
+            font-size: 45px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        section h3{
+            color: #FFF;
+            font-family: Inter sans-serif;
+            font-size: 45px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        aside h3{
+            color: #FFF;
+            font-family: Inter sans-serif;
+            font-size: 45px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        header, section, aside, footer{
+            display: grid;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+<div class="grid">
+    <header>
+        <h3>Header</h3>
+    </header>
+    <section class="top-section">
+        <h3>Content - 1</h3>
+    </section>
+    <section class="middle-section">
+        <h3>Content - 2</h3>
+    </section>
+    <section class="bottom-section">
+        <h3>Content - 3</h3>
+    </section>
+    <aside class="top-aside">
+        <h3>Spam - 1</h3>
+    </aside>
+    <aside class="bottom-aside">
+        <h3>Spam - 2</h3>
+    </aside>
+    <footer>
+        <h3>footer</h3>
+    </footer>
+</div>
+</body>
+</html>
